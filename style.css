@@ -39,6 +39,7 @@ a:hover{
 	background-color: #00e6b8;
 	border-radius: 8px;
 
+
 }
 a{
 	color: black;
@@ -48,6 +49,7 @@ a{
 .active {
 	background-color: #00e6b8;
 	border-radius: 8px;
+
 }
 .hi{
 	clear: both;
@@ -55,11 +57,9 @@ a{
 	margin:0 100px;
 	background-color: lightgray;
 	height: 100%;
-	padding: 200px;
+	padding: 100px;
 	margin-top: -35px;
 	margin-left: -35px;
 	margin-right: 0px;
-	font-size: 20px;
-	 
-
+	font-size: 25px;
 }
