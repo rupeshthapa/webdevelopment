@@ -29,12 +29,14 @@ ul{
 
 }
 li{
+    
 	display: inline-block;
 	margin: 0 5px;
 	line-height: 80px;
 }
 a:hover{
 	background-color: #00e6b8;
+	border-radius: 8px;
 
 }
 a{
@@ -42,6 +44,7 @@ a{
 	font-size: 200%;
 	margin: 10px;
 }
-.active{
+.active {
 	background-color: #00e6b8;
+	border-radius: 8px;
 }
