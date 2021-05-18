@@ -9,6 +9,10 @@ body{
 
 	font-family: montserrat;
 }
+@media screen and (max-width: 500px){
+	body{background-color: #00a3cc;
+	}
+}
 nav{
 	background-color: #00a3cc;
 	height: 100%;
@@ -63,3 +67,6 @@ a{
 	margin-right: 0px;
 	font-size: 25px;
 }
+
+/* contact */
+

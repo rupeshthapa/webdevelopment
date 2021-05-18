@@ -3,47 +3,38 @@
 <head>
 	<title>My Portfolio</title>
     <link href="style.css" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width,intial-scale=1.0">
 
 </head>
 <body>
 	<nav>
 
-        <label class="logo">My Portfolio</label>
+        <label class="logo">Portfolio</label>
 		<ul>
 			<li><a href="index.html">Home</a></li>
 			<li><a href="portfolio.html">Portfolio</a></li>
-			<li><a class= "active " href="contact.html">Contact</a></li>
+			<li><a class="active" href="contact.html">Contact</a></li>
 			<li><a href="cv.html">CV</a></li>
 			<li><a href="sitereport.html">Sitereport</a></li>
 		</ul>
 
 	</nav>
-	<h2> Contact ME</h2>
-	<div class="copy">
-		<form name="contact form" method="POST">
-			<label>Firstname</label> 
-			<br>
-			<input type="text" name="firstname" id="name" placeholder="Enter Your Firstname" required>
-			<br> <br>
-			<label>Lastname</label>
-			<br>
-			<input type="text" name="lastname" id="name" placeholder="Enter Your Lastname" required>
-			<br> <br>
-			<label>Email</label>
-			<br>
-			<input type="email" name="email" id="name" placeholder="Enter Your Email" required>
-			<br> <br>
-			<label>Message</label>
-			<br>
-			<textarea rows="5" cols="20" name="message" id="name"></textarea>
-			<br> <br>
-			<input type="button" name="send" id="send" value="Send"> 
-
-
-			
-		</form>
-
-	
+	<br>
+	<h2>Any Mesage:</h2>
+	<form name="message" method="Post">
+		<label>Fullname</label>
+		<br>
+		<input type="text" name="fullname" id="fname" placeholder="ENTER YOUR Fullname" required>
+		<br> <br>
+		<label>Email</label>
+		<br>
+		<input type="text" name="email" id="fname" placeholder="ENTER YOUR EMAIL" required>
+		<br> <br>
+		<label>Message</label>
+		<br>
+		<textarea rows="5" cols="20" name="message" id="fname"></textarea>
+		<br> <br>
+		<input type="button" name="send" value="Send" id="send">
+	</form>
 </body>
-
 </html>
