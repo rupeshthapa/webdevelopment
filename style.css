@@ -58,7 +58,7 @@ a{
 .hi{
 	clear: both;
 	text-align: center;
-	margin:0 100px;
+	
 	background-color: lightgray;
 	height: 100%;
 	padding: 100px;
@@ -70,20 +70,28 @@ a{
 
 /* contact */
 .book{
-	display: flex;
 	
+	background-color: lightgray;
 }
 .copy{
-	margin-top: 50px;
+	margin-right: 10px;
 }
 h1{
 	text-align: center;
 }
+h2{
+	text-align: center;
+}
+
 
 .pen{
-	margin-top: -25px;
-	margin-left: 50%;
+	float: right;
+	margin-right: 20px;
 }
+.eraser{
+    
+	display: inline-block;
+	margin-top: -150%; 
 
 
 
