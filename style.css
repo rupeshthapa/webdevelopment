@@ -69,16 +69,22 @@ a{
 }
 
 /* contact */
-.pen{
+.book{
+	display: flex;
+	
+}
+.copy{
+	margin-top: 50px;
+}
+h1{
 	text-align: center;
 }
 
-.copy{
-	float: left;
-	margin-left: 300px;
+.pen{
+	margin-top: -25px;
+	margin-left: 50%;
 }
-.book{
-	margin-right: 300px;
-	float: right;
-}
+
+
+
 
