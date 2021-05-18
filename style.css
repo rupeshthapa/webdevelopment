@@ -69,4 +69,16 @@ a{
 }
 
 /* contact */
+.pen{
+	text-align: center;
+}
+
+.copy{
+	float: left;
+	margin-left: 300px;
+}
+.book{
+	margin-right: 300px;
+	float: right;
+}
 
