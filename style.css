@@ -7,11 +7,7 @@
 }
 body{
 
-	font-family: montserrat;
-}
-@media screen and (max-width: 500px){
-	body{background-color: #00a3cc;
-	}
+	
 }
 nav{
 	background-color: #00a3cc;
@@ -75,22 +71,25 @@ a{
 	background-color: lightgray;
 	margin-top: -17px;
 }
-h1,h2{
+.phone{
 	text-align: center;
 	margin: 20px;
 }
 .copy{
-	margin: 75px;
-	margin-left: 20%;
+	margin: 93px;
+	margin-left: 15%;
+
+
 }
 .eraser{
 	background-color: rgba(0,0,0,0.8);
-	margin-right: 60%;
-	margin-left: 25%;
+	margin-right: 45%;
+	margin-left: 30%;
+	border-radius: 13px;
 }
 .pen{
 	margin-left: 25%;
-	margin-top: -23%;
+	margin-top: -15%;
 
 }
 .pencil{
@@ -98,10 +97,15 @@ h1,h2{
 	line-height: 20px;
 	margin-left: 60%;
 	margin-top: -23%;
-	margin-right: 20%;
+	margin-right: 10%;
+	border-radius: 13px;
 }
 .compass{
-	margin-top: 20px;
+	margin-top: 38px;
+}
+@media screen and (max-width: 500px){
+	body{background-color: #00a3cc;
+	}
 }
 
 
