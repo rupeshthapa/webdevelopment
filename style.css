@@ -21,6 +21,7 @@ nav{
 	font-weight: 20px;
 	line-height: 100px;
 	padding: 0 50px;
+	text-shadow: 3px 3px black;
 	
 }
 ul{
@@ -73,11 +74,12 @@ a{
 }
 .phone{
 	text-align: center;
-	margin: 20px;
+	margin: 5px;
+
 
 }
 .copy{
-	margin: 93px;
+	margin: 19%;
 	margin-left: 10%;
 	color: #fff;
 
@@ -113,17 +115,21 @@ a{
 	text-align: center;
 	font-size: 20px;
 	color: #fff;
+	line-height: 20px;
 }
 #fname{
 	float: center;
 	border-radius: 13px;
 	width: 90%;
 	height: 40px;
+
 }
 #send{
 	border-radius: 10px;
 	width: 100px;
 	background-color: lightgray;
+	margin: 10px;
+	text-transform: uppercase;
 }
 @media screen and (max-width: 500px){
 	body{background-color: #00a3cc;
