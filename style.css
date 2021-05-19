@@ -74,11 +74,13 @@ a{
 .phone{
 	text-align: center;
 	margin: 20px;
+
 }
 .copy{
 	margin: 93px;
 	margin-left: 10%;
 	color: #fff;
+
 
 
 }
@@ -87,19 +89,21 @@ a{
 	margin-right: 55%;
 	margin-left: 5%;
 	border-radius: 20px;
+	box-shadow: 20px 20px;
 }
 .pen{
-	margin-left: 5%;
+	margin-left: 4%;
 	margin-top: -15%;
 
 }
 .pencil{
 	background-color: rgba(0,0,0,0.8);
 	line-height: 20px;
-	margin-left: 55%;
+	margin-left: 50%;
 	margin-top: -23%;
-	margin-right: 1%;
+	margin-right: 5%;
 	border-radius: 20px;
+	box-shadow: 20px 20px;
 }
 .compass{
 	margin-top: 38px;
@@ -125,7 +129,7 @@ a{
 	body{background-color: #00a3cc;
 	}
 }
-
+/*https://www.youtube.com/watch?v=-JNRQ5HjNeI*/
 
 
 
