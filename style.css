@@ -55,6 +55,7 @@ a{
 	border-radius: 8px;
 
 }
+/* index */
 .hi{
 	clear: both;
 	text-align: center;
@@ -70,28 +71,39 @@ a{
 
 /* contact */
 .book{
-	
+
 	background-color: lightgray;
+	margin-top: -17px;
+}
+h1,h2{
+	text-align: center;
+	margin: 20px;
 }
 .copy{
-	margin-right: 10px;
-}
-h1{
-	text-align: center;
-}
-h2{
-	text-align: center;
-}
-
-
-.pen{
-	float: right;
-	margin-right: 20px;
+	margin: 75px;
+	margin-left: 20%;
 }
 .eraser{
-    
-	display: inline-block;
-	margin-top: -150%; 
+	background-color: rgba(0,0,0,0.8);
+	margin-right: 60%;
+	margin-left: 25%;
+}
+.pen{
+	margin-left: 25%;
+	margin-top: -23%;
+
+}
+.pencil{
+	background-color: rgba(0,0,0,0.8);
+	line-height: 20px;
+	margin-left: 60%;
+	margin-top: -23%;
+	margin-right: 20%;
+}
+.compass{
+	margin-top: 20px;
+}
+
 
 
 
