@@ -126,25 +126,14 @@ a{
 }
 /*https://www.youtube.com/watch?v=-JNRQ5HjNeI*/
 /* cv*/
-.az{
+#aa{
 	background-color: lightgray;
-	
 }
-.bottle{
-	float: right;
-	border-right: 1px;
-	margin-right: 20px;
-}
-.jacket{
+#ab{
 	text-align: center;
 	text-decoration: underline;
 }
-.keyboard{
-	margin: 50px;
-}
-.ab{
-	margin-top: 20px
-}
-.ay{
-	background-color: rgba(0,0,0,0.8)
+#ac{
+	float: right;
+	margin-right: 10px;
 }
