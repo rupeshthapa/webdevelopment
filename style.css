@@ -126,24 +126,28 @@ a{
 }
 /*https://www.youtube.com/watch?v=-JNRQ5HjNeI*/
 /* cv*/
-#aa{
-	background-color: lightgray;
-	margin-top: -100px;
+.aa{
+	background-color: #fff;
+	margin-left: 10%;
+	margin-right: 10%;
+	padding: 100px;
 }
-#ab{
+.ab{
+	background-color: lightgray;
+	margin-top: 2px;
+}
+.ac{
 	text-align: center;
 	text-decoration: underline;
+	margin-top: -56px;
 }
-#ad{
-	background-color: #fff;
-	margin-left: 100px;
-	margin-right: 100px; 
-	padding: 100px; 
-	margin: 100px ;
+.ad{
+   float: right;
+   margin: 20px;
 }
-.af{
+.ae{
 	display: grid;
-	grid-gap: 50px;
 	grid-template-columns: auto auto auto;
-	padding: 10px;
+	grid-gap: 70px;
+	margin-top: 15%;
 }
