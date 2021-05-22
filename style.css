@@ -128,18 +128,19 @@ a{
 /* cv*/
 .aa{
 	background-color: #fff;
-	margin-left: 10%;
-	margin-right: 10%;
-	padding: 100px;
+	margin-top: 50px;
+	margin-right: 20px;
+	margin-left: 20px;
 }
 .ab{
 	background-color: lightgray;
+	padding: 100px;
 	margin-top: 2px;
 }
 .ac{
 	text-align: center;
 	text-decoration: underline;
-	margin-top: -56px;
+	margin-top: 20px;
 }
 .ad{
    float: right;
@@ -148,6 +149,10 @@ a{
 .ae{
 	display: grid;
 	grid-template-columns: auto auto auto;
-	grid-gap: 70px;
+	grid-gap: 50px;
 	margin-top: 15%;
+}
+.fuck{
+	margin: 10px;
+  
 }
