@@ -156,10 +156,14 @@ a{
 }
 .ag{
 	background-color: lightgray;
-	background-size: 100%;
+	margin: 1px;
 
 }
 .ai{
-	line-height: 100%;
-
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-gap: 1px; 
+}
+#ah{
+	margin: 10px;
 }
