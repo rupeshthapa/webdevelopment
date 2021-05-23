@@ -154,15 +154,21 @@ a{
 	grid-gap: 20px;
 	margin-top: 10%;
 }
+/**/
+/* Portfolio*/
 .ag{
 	background-color: lightgray;
 	margin: 1px;
+	text-align: center;
 
 }
 .ai{
+	margin-top: 30px;
 	display: grid;
 	grid-template-columns: auto auto auto;
-	grid-gap: 1px; 
+	grid-gap: 1px;
+	margin-left: 50px;
+	margin-right: 50px;  
 }
 #ah{
 	margin: 10px;
