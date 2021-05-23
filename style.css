@@ -20,6 +20,12 @@ body{
 	line-height: 100px;
 	padding: 0 50px;
 	text-shadow: 3px 3px black;
+	animation: text 3s 1;
+}
+@keyframes text{
+	0%{
+		color: black;
+	}
 }
 .c{
 	float: right;
@@ -120,7 +126,7 @@ a{
 	border-color: black;
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 800px){
 	body{background-color: #00a3cc;
 	}
 
@@ -129,16 +135,17 @@ a{
 /*https://www.youtube.com/watch?v=-JNRQ5HjNeI*/
 /* cv*/
 .aa{
+	background-color: lightgray;
+	padding: 100px;
+	margin-top: 2px;
+}
+.ab{
 	background-color: #fff;
 	margin-top: -50px;
 	margin-right: 10px;
 	margin-left: 10px;
 }
-.ab{
-	background-color: lightgray;
-	padding: 100px;
-	margin-top: 2px;
-}
+
 .ac{
 	text-align: center;
 	text-decoration: underline;
@@ -153,23 +160,199 @@ a{
 	grid-template-columns: auto auto auto;
 	grid-gap: 20px;
 	margin-top: 10%;
+	margin-left: 70px;
+	margin-right: 70px;
+
+}
+#az{
+	text-decoration:underline;
+}
+.ak{
+	grid-column-start: 1;
+	grid-column-end: 4; 
 }
 /**/
 /* Portfolio*/
-.ag{
+.ax{
 	background-color: lightgray;
 	margin: 1px;
 	text-align: center;
 
 }
-.ai{
+.aw{
 	margin-top: 30px;
 	display: grid;
 	grid-template-columns: auto auto auto;
-	grid-gap: 1px;
+	grid-gap: 10px;
 	margin-left: 50px;
 	margin-right: 50px;  
 }
-#ah{
+.ay{
 	margin: 10px;
+}
+/*https://www.youtube.com/watch?v=Syg_9iB1vco*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		\-black;
+	}
 }
