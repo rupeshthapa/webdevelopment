@@ -27,6 +27,7 @@ body{
 		color: black;
 	}
 }
+
 .c{
 	float: right;
 	margin-right: 20px;
@@ -126,18 +127,11 @@ a{
 	border-color: black;
 }
 
-@media screen and (max-width: 800px){
-	body{background-color: #00a3cc;
-	}
-
-
-}
-/*https://www.youtube.com/watch?v=-JNRQ5HjNeI*/
 /* cv*/
 .aa{
 	background-color: lightgray;
 	padding: 100px;
-	margin-top: 2px;
+	margin-top: 1px;
 }
 .ab{
 	background-color: #fff;
@@ -191,9 +185,64 @@ a{
 	margin: 10px;
 }
 /*https://www.youtube.com/watch?v=Syg_9iB1vco*/
+/**/
+.bz{
+	background-color: lightgray;
+	padding: 100px;
+	margin: 1px;
+}
+.by{
+	background-color: #fff;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: -60px;
+}
+.bb{
+	text-align: center;
+	text-decoration: underline;
+}
+.ba{
+	float: right;
+	margin-right: 10px; 
+}
+.bc{
+	float: left;
+	margin-top: -20px;
+	margin-left: 10px;
+}
+.bj{
+	margin: 10px;
+	margin-left: 20px;
+	margin-right: 20px; 
+}
 
 
+@media screen and (max-width: 800px){
+	body{background-color: #00a3cc;
+	}
+	#ay{
+		width: 100%;
+	}
+	.aa{
+		margin-top: 100px;
+		margin-left: -80px;
+		margin-right: -45%;
+	}
+	.ae{
+		width: 100%;
+		margin-left: 30px;
+	}
+	.ag{
+		margin-right: 19%;
+	}
+	.aj{
+		margin-right: 17%;
+	}
+	.ak{
+		margin-right: 10%;
+	}
 
+}
 
 
 
