@@ -220,13 +220,15 @@ a{
 @media screen and (max-width: 800px){
 	body{background-color: #00a3cc;
 	}
+	/* Portfolio*/
 	#ay{
 		width: 100%;
 	}
+	/* CV*/
 	.aa{
 		margin-top: 100px;
 		margin-left: -80px;
-		margin-right: -45%;
+		margin-right: -40%;
 	}
 	.ae{
 		width: 100%;
@@ -240,6 +242,12 @@ a{
 	}
 	.ak{
 		margin-right: 10%;
+	}
+	/* Sitereport*/
+	.by{
+		margin-top: 60px;
+		margin-right: -25%;
+		margin-left: -25%; 
 	}
 
 }
