@@ -10,10 +10,10 @@ body{
 }
 .b{
 	background-color: #00a3cc;
-	height: 100%;
+    
 	width: 100%;
 }   
-.zz{
+span{
 	color: white;
 	font-size: 50px;
 	font-weight: 20px;
@@ -31,12 +31,13 @@ body{
 .c{
 	float: right;
 	margin-right: 20px;
+	margin-top: -90px;
 	
 }
 .d{    
 	display: inline-block;
-	margin: 0 5px;
 	line-height: 80px;
+	margin-right: 25px;
 }
 a:hover{
 	background-color: #00e6b8;
@@ -52,7 +53,12 @@ a{
 	background-color: #00e6b8;
 	border-radius: 8px;
 }
-/* index */
+label, #toggle{
+	float: right;
+	font-size: 70px;
+	display: none;
+}
+/*Index*/
 .hi{
 	clear: both;
 	text-align: center;
@@ -64,112 +70,10 @@ a{
 	margin-right: 0px;
 	font-size: 25px;
 }
-
-/* contact */
-.book{
-	background-color: lightgray;
-	margin-top: -17px;
-}
-.phone{
-	text-align: center;
-	margin: 5px;
-}
-.copy{
-	margin: 19%;
-	margin-left: 10%;
-	color: #fff;
-}
-.eraser{
-	background-color: rgba(0,0,0,0.8);
-	margin-right: 55%;
-	margin-left: 5%;
-	border-radius: 20px;
-	box-shadow: 20px 20px;
-}
-.pen{
-	margin-left: 4%;
-	margin-top: -15%;
-}
-.pencil{
-	background-color: rgba(0,0,0,0.8);
-	line-height: 20px;
-	margin-left: 50%;
-	margin-top: -23%;
-	margin-right: 5%;
-	border-radius: 20px;
-	box-shadow: 20px 20px;
-}
-.compass{
-	margin-top: 38px;
-	margin-left: 10px;
-}
-.charger{
-	text-align: center;
-	font-size: 20px;
-	color: #fff;
-	line-height: 20px;
-}
-#fname{
-	float: center;
-	background-color: lightgray;
-	border-radius: 13px;
-	width: 90%;
-	height: 40px;
-	border-color: black;
-    border-bottom-width: 5px;
-}
-#send{
-	border-radius: 10px;
-	width: 100px;
-	background-color: lightgray;
-	margin: 10px;
-	text-transform: uppercase;
-	border-color: black;
-}
-
-/* cv*/
-.aa{
-	background-color: lightgray;
-	padding: 100px;
-	margin-top: 1px;
-}
-.ab{
-	background-color: #fff;
-	margin-top: -50px;
-	margin-right: 10px;
-	margin-left: 10px;
-}
-
-.ac{
-	text-align: center;
-	text-decoration: underline;
-	margin-top: 20px;
-}
-.ad{
-   float: right;
-   margin: 20px;
-}
-.ae{
-	display: grid;
-	grid-template-columns: auto auto auto;
-	grid-gap: 20px;
-	margin-top: 10%;
-	margin-left: 70px;
-	margin-right: 70px;
-
-}
-#az{
-	text-decoration:underline;
-}
-.ak{
-	grid-column-start: 1;
-	grid-column-end: 4; 
-}
-/**/
-/* Portfolio*/
+/*Portfolio*/
 .ax{
 	background-color: lightgray;
-	margin: 1px;
+	margin-top: -35px;
 	text-align: center;
 
 }
@@ -184,232 +88,31 @@ a{
 .ay{
 	margin: 10px;
 }
-/*https://www.youtube.com/watch?v=Syg_9iB1vco*/
-/**/
-.bz{
-	background-color: lightgray;
-	padding: 100px;
-	margin: 1px;
-}
-.by{
-	background-color: #fff;
-	margin-left: 50px;
-	margin-right: 50px;
-	margin-top: -60px;
-}
-.bb{
-	text-align: center;
-	text-decoration: underline;
-}
-.ba{
-	float: right;
-	margin-right: 10px; 
-}
-.bc{
-	float: left;
-	margin-top: -20px;
-	margin-left: 10px;
-}
-.bj{
-	margin: 10px;
-	margin-left: 20px;
-	margin-right: 20px; 
-}
 
 
-@media screen and (max-width: 800px){
-	body{background-color: #00a3cc;
+@media only screen and (max-width: 500px){
+	label{
+		display: block;
+		cursor: pointer;
 	}
-	/* Portfolio*/
-	#ay{
-		width: 100%;
+	.menu{
+		text-align: center;
+		width: 100;
+		display: none;
 	}
-	/* CV*/
-	.aa{
-		margin-top: 100px;
-		margin-left: -80px;
-		margin-right: -40%;
+	.menu a{
+		display: block;
+
 	}
-	.ae{
-		width: 100%;
-		margin-left: 30px;
+	
+	
+	
+	#toggle:checked+ .menu{
+		display: block;
 	}
-	.ag{
-		margin-right: 19%;
-	}
-	.aj{
-		margin-right: 17%;
-	}
-	.ak{
-		margin-right: 10%;
-	}
-	/* Sitereport*/
-	.by{
-		margin-top: 60px;
-		margin-right: -25%;
-		margin-left: -25%; 
-	}
+	.c{
+		margin-top: 90px;
+	/*Portfolio*/
+   
 
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-		\-black;
-	}
 }
