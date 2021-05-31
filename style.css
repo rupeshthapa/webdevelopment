@@ -197,6 +197,29 @@ label, #toggle{
 	grid-column-end: 4; 
 }
 /*Sitereport*/
+.jan{
+	clear: both;
+	background-color: lightgray;
+	margin-top: -35px;
+	padding: 100px;
+}
+.feb{
+	background-color: #fff;
+}
+.march{
+	text-align: center;
+	text-decoration:underline;
+}
+.april{
+	float: right;
+	margin-top: 15px;
+}
+.may{
+	margin: 100px;
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-column-gap: 20px;
+}
 
 
 @media only screen and (max-width: 500px){
@@ -205,9 +228,7 @@ label, #toggle{
 		width: 100%;
 	}
 	/*CV*/
-	.c{
-		margin-top: 90px;
-	}
+	
 	.ab{
 		margin-left: -90px;
 		margin-right: -90px;
@@ -215,6 +236,11 @@ label, #toggle{
 	.ae{
 		margin-top: 30%;
 		margin-left: 25px;
+	}
+	/*Sitereport*/
+	.feb{
+		margin-right: -90px;
+		margin-left: -90px;
 	}
 	label{
 		display: block;
