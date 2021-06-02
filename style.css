@@ -6,12 +6,12 @@
     box-sizing: border-box;
 }
 body{
-	
+	margin: 0;
+	padding: 0;
 }
 .b{
 	background-color: #00a3cc;
-    
-	width: 100%;
+    width: 100%;
 }   
 span{
 	color: white;
@@ -27,12 +27,10 @@ span{
 		color: black;
 	}
 }
-
 .c{
 	float: right;
 	margin-right: 20px;
 	margin-top: -90px;
-	
 }
 .d{    
 	display: inline-block;
@@ -221,7 +219,7 @@ label, #toggle{
 	grid-column-gap: 20px;
 }
 
-
+/*media query*/
 @media only screen and (max-width: 500px){
 	/*Portfolio*/
 	#ay{
@@ -242,6 +240,7 @@ label, #toggle{
 		margin-right: -90px;
 		margin-left: -90px;
 	}
+	/*hamburgar*/
 	label{
 		display: block;
 		cursor: pointer;
@@ -255,15 +254,10 @@ label, #toggle{
 		display: block;
 
 	}
-	
-	
-	
 	#toggle:checked+ .menu{
 		display: block;
 	}
 	.c{
 		margin-top: 90px;
-
-   
-
+	}
 }
