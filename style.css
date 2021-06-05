@@ -20,7 +20,7 @@ span{
 	line-height: 100px;
 	padding: 0 50px;
 	text-shadow: 3px 3px black;
-	animation: text 3s 1;
+	animation: text 3s;
 }
 @keyframes text{
 	0%{
