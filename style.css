@@ -62,7 +62,7 @@ label, #toggle{
 	text-align: center;
 	background-color: lightgray;
 	height: 100%;
-	padding: 100px;
+	padding: 160px;
 	margin-top: -35px;
 	margin-left: -35px;
 	margin-right: 0px;
@@ -97,6 +97,7 @@ label, #toggle{
 	clear: both;
 	background-color: lightgray;
 	margin-top: -35px;
+	padding: 105px;
 }
 .phone{
 	text-align: center;
