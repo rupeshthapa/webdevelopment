@@ -16,7 +16,6 @@ body{
 span{
 	color: white;
 	font-size: 50px;
-	font-weight: 20px;
 	line-height: 100px;
 	padding: 0 50px;
 	text-shadow: 3px 3px black;
@@ -139,8 +138,8 @@ label, #toggle{
 	color: #fff;
 	line-height: 20px;
 }
-#fname{
-	float: center;
+.fname{
+	text-align: center;
 	background-color: lightgray;
 	border-radius: 13px;
 	width: 90%;
@@ -188,7 +187,7 @@ label, #toggle{
 	margin-right: 70px;
 
 }
-#az{
+.az{
 	text-decoration:underline;
 }
 .ak{
@@ -248,7 +247,7 @@ label, #toggle{
 	}
 	.menu{
 		text-align: center;
-		width: 100;
+		width: 100%;
 		display: none;
 	}
 	.menu a{
